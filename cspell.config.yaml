@@ -1,0 +1,11 @@
+version: "0.2"
+ignorePaths: []
+dictionaryDefinitions:
+  - name: lets-markdown
+    path: .github/config/lets-markdown.dict
+    addWords: true
+dictionaries:
+  - lets-markdown
+words: []
+ignoreWords: []
+import: []
