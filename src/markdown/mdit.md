@@ -32,7 +32,7 @@ test.. test... test..... test?..... test!....
 
 ## Emphasis
 
-**This is bold text**
+Example: **This is bold text**
 
 _This is italic text_ s ~~Strikethrough~~
 
@@ -52,7 +52,7 @@ Unordered
 - Sub-lists are made by indenting 2 spaces:
   - Marker character change forces new list start:
     - Ac tristique libero volutpat at
-    * Facilisis in pretium nisl aliquet
+    - Facilisis in pretium nisl aliquet
     - Nulla volutpat aliquam velit
 - Very easy!
 
@@ -83,13 +83,15 @@ Indented code
 
 Block code "fences"
 
-```
+<!-- markdownlint-disable MD046 -->
+
+```plaintext
 Sample text here...
 ```
 
 Syntax highlighting (upcoming)
 
-```js
+```javascript
 var foo = function (bar) {
   return bar++;
 };
@@ -119,7 +121,7 @@ Right aligned columns
 
 [Link with title (hover your mouse)](https://cveinnt.ml/ "check out my website!")
 
-Autoconverted link https://github.com/Cveinnt/ (enable linkify to see)
+Autoconverted link <https://github.com/Cveinnt/> (enable linkify to see)
 
 ## Images
 

@@ -23,15 +23,15 @@ Markdown applications support these elements.
 
 ### Bold
 
-**bold text**
+Example: **bold text**
 
 ### Italic
 
-_italicized text_
+Example: _italicized text_
 
 ### Blockquote
 
-> blockquote
+> Example: blockquote
 
 ### Ordered List
 
@@ -75,7 +75,7 @@ Markdown applications support these elements.
 
 ### Fenced Code Block
 
-```
+```json
 {
   "firstName": "John",
   "lastName": "Smith",

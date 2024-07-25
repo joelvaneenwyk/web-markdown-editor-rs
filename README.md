@@ -1,5 +1,7 @@
 # 👨‍💻👩‍💻 [_LetsMarkdown.com_](https://LetsMarkdown.com/)
 
+<!-- markdownlint-disable MD033 MD045 -->
+
 Fast, minimal web editor that makes markdown editing **collaborative** and
 **accessible** to everyone.
 
@@ -81,7 +83,7 @@ wasm-pack build --target web letsmarkdown-wasm
 
 After that, install the dependencies for the React application:
 
-```
+```bash
 npm install
 ```
 
@@ -108,7 +110,7 @@ Docker image, which is built automatically from the `Dockerfile` in this
 repository. You can pull the latest version of this image from Docker Hub. It
 has multi-platform support for linux/amd64 and linux/arm64.
 
-```
+```bash
 docker pull cveinnt/letsmarkdown
 ```
 
@@ -116,7 +118,7 @@ docker pull cveinnt/letsmarkdown
 project root directory.) To run locally, execute the following command, then
 open `http://localhost:3030` in your browser.
 
-```
+```bash
 docker run --rm -dp 3030:3030 cveinnt/letsmarkdown
 ```
 
@@ -129,7 +131,7 @@ This project is still in a **very early** phase. If you're interested in adding
 new features or fixing bugs, please reach out to me by creating a GitHub issue!
 
 I plan to integrate this repository continuously, and the code base already
-accounts for things like code style (Prettier, Rustfmt) and build success
+accounts for things like code style (`Prettier`, `Rustfmt`) and build success
 (Docker). The current state of the `main` branch is continuously deployed to the
 production web server at [LetsMarkdown.com](https://LetsMarkdown.com/).
 
