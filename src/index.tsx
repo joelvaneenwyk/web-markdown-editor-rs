@@ -13,6 +13,6 @@ init().then(() => {
         <App />
       </ChakraProvider>
     </StrictMode>,
-    document.getElementById("root")
+    document.getElementById("root"),
   );
 });

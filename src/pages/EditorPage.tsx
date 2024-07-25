@@ -130,7 +130,7 @@ function EditorPage() {
             text: samples[Math.floor(Math.random() * samples.length)],
           },
         ],
-        () => null
+        () => null,
       );
       editor.setPosition({ column: 0, lineNumber: 0 });
     }
